@@ -1,0 +1,17 @@
+.navbar {
+    background-color: $color-light-green;
+
+    .nav-wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        font-size: 3.5rem;
+    }
+
+    &__item {
+        font-size: 1.5rem;
+        padding: 0 3rem;
+    }
+}
