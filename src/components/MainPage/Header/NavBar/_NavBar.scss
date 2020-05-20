@@ -1,17 +1,24 @@
 .navbar {
-    background-color: $color-light-green;
+    grid-column: 1 / -1;
+    // background-color: #434343;
+    // background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: linear-gradient(120deg, #868f96 0%, #596164 100%);
+    // background-color: #c5cae9;
 
     .nav-wrap {
         width: 80%;
         margin: 0 auto;
+        
     }
 
     .logo {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        //color: black;
     }
 
     &__item {
         font-size: 1.5rem;
-        padding: 0 3rem;
+        //color: black;
+        
     }
 }

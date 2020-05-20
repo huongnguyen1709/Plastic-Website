@@ -3,7 +3,7 @@ $color-primary: #424242;
 $color-light-green: #9ccc65;
 
 // FONT VARIABLES
-$font-display: "Nunito", sans-serif;
+$font-display: 'Nunito', sans-serif;
 $font-primary: 'Lato', sans-serif;
 
 *,
@@ -16,7 +16,7 @@ $font-primary: 'Lato', sans-serif;
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; //10/16px = 62.5% -> 1rem = 10px
+  font-size: 62.5%; // 10/16px = 62.5% -> 1rem = 10px
 }
 
 body {
